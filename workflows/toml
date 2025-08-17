@@ -1,0 +1,45 @@
+
+[database]
+type = "sqlite"
+sqlite = { database = "database.sqlite" }
+
+[credentials]
+overwrite = { endpoint = "filesystem" }
+
+[workflows]
+defaultName = "My Workflow"
+
+[endpoints]
+rest = "rest"
+webhook = "webhook"
+webhookWaiting = "webhook-waiting"
+webhookTest = "webhook-test"
+
+[externalHookFiles]
+workflowSettings = []
+
+[nodes]
+exclude = []
+include = []
+
+[security]
+excludeNodes = []
+
+[userManagement]
+disabled = false
+
+[publicApi]
+disabled = false
+path = "api"
+
+[endpoints.webhook]
+path = "webhook"
+
+[logs]
+level = "info"
+output = ["console", "file"]
+
+[executions]
+saveDataOnError = "all"
+saveDataOnSuccess = "all"
+saveDataManualExecutions = true
