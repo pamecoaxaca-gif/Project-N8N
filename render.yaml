@@ -1,0 +1,22 @@
+# Exported from Render on 2025-08-17T03:20:35Z
+services:
+- type: web
+  name: Project-N8N
+  runtime: docker
+  repo: https://github.com/pamecoaxaca-gif/Project-N8N
+  plan: free
+  envVars:
+  - key: WEBHOOK_TUNNEL_URL
+    sync: false
+  - key: N8N_HOST
+    sync: false
+  - key: N8N_BASIC_AUTH_PASSWORD
+    sync: false
+  - key: N8N_BASIC_AUTH_USER
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: .Dockerfile
+  autoDeployTrigger: commit
+  rootDir: ./.render.yaml
+version: "1"
