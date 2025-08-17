@@ -50,14 +50,17 @@ export N8N_HOST=https://your-app.onrender.com
 # 5. App sleeps when idle, wakes via webhook or cron
 
 
-*_*_*_*_**_*__*_*_*_**_*__*_*_*_**_*__*_*_*_**_*__*_*_*_**_*_
+*_*_*_*_**_*__*_*_*_**_*__*_*_*_**_*__*_*_*_**_*__*_*_*_**_*
+
+
+
+
 
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" width="120" alt="n8n logo">
   <br>
   <span style="font-size:2.5em;">n8n en Render</span>
-</h1>
-
+</h1
 <p align="center">
   <em>Automatización sin estado, belleza funcional.</em><br>
   <strong>Despliega n8n en Render con workflows sincronizados desde Git, activación por webhook y cero intervención manual.</strong>
